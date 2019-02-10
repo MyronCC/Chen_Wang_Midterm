@@ -29,6 +29,7 @@ h2
 {
 	font-family: 'Londrina Solid', cursive;
 	font-size: 24px;
+	letter-spacing: 1px;
 }
 
 p
@@ -344,5 +345,178 @@ footer
 	background-color: #17b102;
 	color: #fff;
 	box-shadow: 0 1px 3px rgba(0,0,0,.15) inset;
+}
+
+/* About Page */
+#about
+{
+	height: 375px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #8c8c8c;
+}
+
+#about h2
+{
+	text-align: center;
+	line-height: 20px;
+
+}
+
+#bigLogo
+{
+	float: right;
+	width: 360px;
+}
+
+#introduction
+{
+	margin-top: 20px;
+}
+
+#introText
+{
+	width: 520px;
+}
+
+#introText h3
+{
+	line-height: 24px;
+	font-family: 'Arial';
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#introText  ol
+{
+	list-style-type: disc;
+
+}
+#introText  ol li
+{
+	
+	font-family: 'Arial', normal;
+	font-size: 14px;
+	line-height: 175%;
+	list-style-position: outside;
+	margin-left: 20px;
+}
+
+#person
+{
+	margin-left: 50px;
+	margin-right: 50px;
+	flex-direction: row;
+	display: flex;
+	border-bottom: 1px solid #8c8c8c;
+}
+
+#executive
+{
+	width: 315px;
+	margin-top: 30px;
+	border-right: 1px solid #8c8c8c;
+	margin-bottom: 30px;
+}
+
+#executive ol
+{
+	padding-left: 25px;
+	padding-top: 25px;
+}
+
+#executive ol li
+{
+	line-height: 200%;
+	font-size: 14px;
+	font-family: 'Arial';
+	letter-spacing: 1px;
+}
+
+#executive ol li span
+{
+	font-weight: bold;
+}
+
+#volunteer
+{
+	width: 465px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 80px;
+}
+
+#volunteerInfo
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.column
+{
+	display: flex;
+	flex-direction: column;
+	padding-right: 15px;
+}
+
+.column ol
+{
+	padding-top: 25px;
+}
+
+.column ol li
+{
+	line-height: 200%;
+	font-size: 14px;
+	font-family: 'Arial';
+	letter-spacing: 1px;
+}
+
+.volunteerType
+{
+	font-weight: bold;
+}
+
+#support
+{
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 30px;
+	height: 230px;
+	border-bottom: 1px solid #8c8c8c;
+}
+
+#support h2
+{
+	text-align: center;
+}
+
+#businessLogos
+{
+	padding-top: 30px;
+	flex-direction: row;
+	display: flex;
+	margin-left: 100px;
+
+}
+
+.logo
+{
+	margin: 20px;
+}
+
+#businessLogos img
+{
+	
+	padding: 20px;
+	margin: 0 auto;
+	transition: opacity .25s ease;
+}
+
+#businessLogos img:hover
+{
+	opacity: .4;
 }
 
