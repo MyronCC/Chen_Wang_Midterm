@@ -396,7 +396,6 @@ footer
 }
 #introText  ol li
 {
-	
 	font-family: 'Arial', normal;
 	font-size: 14px;
 	line-height: 175%;
@@ -495,22 +494,18 @@ footer
 
 #businessLogos
 {
-	padding-top: 30px;
+	padding-top: 10px;
 	flex-direction: row;
 	display: flex;
-	margin-left: 100px;
-
 }
 
-.logo
+.logos
 {
 	margin: 20px;
 }
 
 #businessLogos img
 {
-	
-	padding: 20px;
 	margin: 0 auto;
 	transition: opacity .25s ease;
 }
@@ -520,3 +515,83 @@ footer
 	opacity: .4;
 }
 
+.columnLogo
+{
+	display: flex;
+	flex-direction: column;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+/* Project 1 */
+
+#subNav
+{
+	width: 920px;
+	margin-left: 20px;
+	margin-top: 15px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#subNav ul
+{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+#subNav ul li
+{
+	padding: 5px 190px 5px 190px;
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+	text-align: center;
+	text-align: center;
+	transition: all .5s ease;
+}
+
+#project1
+{
+	
+	border-right: 2px solid #8c8c8c;
+	text-align: center;
+}
+
+
+#subNav ul li a
+{
+	text-decoration: none;
+	font-family: 'Arial', normal;
+	color: #000;
+	font-size: 14px;
+	text-align: center;
+	width: 200%;
+	line-height: 5px;
+	padding-bottom: 3px;
+	transition: all .2s ease-in;
+}
+
+#subNav ul li a:hover
+{
+	border-bottom: 3px solid blue;
+}
+
+.onSubpage
+{
+	border-bottom: 3px solid blue;
+}
+
+#project
+{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#project h2
+{
+	text-align: center;
+}
+
+#projectIntro
