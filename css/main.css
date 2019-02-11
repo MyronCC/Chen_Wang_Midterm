@@ -120,7 +120,7 @@ header
 	padding: 10px 25px 10px 25px;
 	font-size: 18px;
 	border-radius: 10px;
-	transition: all .5s ease;
+	transition: background-image .2s ease-in;
 	/*opacity: 0;	*/
 }
 
@@ -132,7 +132,6 @@ header
 	background-image: -moz-linear-gradient( 225deg, rgb(221,248,255) 0%, rgb(208,206,224) 100%);
     background-image: -webkit-linear-gradient( 225deg, rgb(221,248,255) 0%, rgb(208,206,224) 100%);
     background-image: -ms-linear-gradient( 225deg, rgb(221,248,255) 0%, rgb(208,206,224) 100%);
-	transition: all .5s ease;
 	color: #fff;
 	/*opacity: 1;*/
 }
@@ -220,6 +219,7 @@ footer
 	background-size: 100%;
 	margin: 20px;
 	border-radius: 20px;
+	box-shadow: 0 3px 10px rgba(0,0,0,.8);
 }
 
 #banner h2
@@ -523,7 +523,7 @@ footer
 	margin: 0 auto;
 }
 
-/* Project 1 */
+/* Project pages */
 
 #subNav
 {
@@ -575,23 +575,111 @@ footer
 
 #subNav ul li a:hover
 {
-	border-bottom: 3px solid blue;
+	border-bottom: 3px solid #8c8c8c;
+	color: #8c8c8c;
 }
 
 .onSubpage
 {
-	border-bottom: 3px solid blue;
+	border-bottom: 3px solid #8c8c8c;
+	color: #8c8c8c;
 }
 
+	/* current project */
 #project
 {
 	margin-left: 50px;
 	margin-right: 50px;
+	border-bottom: solid 1px #8c8c8c;
+	padding-bottom: 30px;
 }
 
 #project h2
 {
-	text-align: center;
+	
 }
 
 #projectIntro
+{
+	font-family: 'Arial', normal;
+	font-size: 14px;
+	line-height: 150%;
+	margin-top: 10px;
+	letter-spacing: 1px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 20px;
+}
+
+.projectDetail
+{
+	border-top: solid 1px #8c8c8c;
+}
+
+.projectDetail h2
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.Events
+{
+	height: 270px;
+	width: 860px;
+	/*display: inline-block;*/
+	position: relative;
+}
+
+.projectOverlay
+{
+	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+ 	width: 100%;
+ 	opacity: 0;
+ 	transition: .5s ease;
+	background-color: #ffffff;
+  	border-radius: 20px;
+  	text-decoration: none;
+}
+
+.projectOverlay p
+{
+	color: #000;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-align: center;
+	font-family: 'Arial', normal;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 18px;
+}
+
+#p1
+{
+	padding-top: 90px;
+}
+
+#p2
+{
+	padding-top: 60px;
+}
+
+.projectOverlay:hover
+{
+	opacity: 0.9;
+}
+
+.Events img
+{
+	border-radius: 20px;
+	box-shadow: 0 3px 10px rgba(0,0,0,.5);
+}
+
+	/* Past events */
+{
+
+}
