@@ -3,10 +3,95 @@
 <head>
 	<meta charset="UTF-8">
 	<title>TRAA - Home</title>
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster|Londrina+Solid|Staatliches" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+	<div id="container">
+		<header>
+			<div id="mainHeader">
+				<h2 class="hidden">Header</h2>
+				<div id="logo">
+					<object data="images/traa_logo.svg" type="image/svg+xml"></object>
+				</div>
+				
+				<form id="searchForm">
+					<input type="text" placeholder="search">
+				</form>
+
+					
+				
+			</div>
+			<nav id="mainNav">
+				<h2 class="hidden">nav bar</h2>
+				<ul>
+					<li class="onSite"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About us</a></li>
+					<li><a href="project_1.html">Projects</a></li>
+					<li><a href="statistic.html">Statistic</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="banner">
+			<h2>Welcome to TRAA<br><span>Thams River Anglers Association</span></h2>
+			
+			
+		</div>
+		<section id="events">
+			<h2>Events</h2>
+			<div id="firstRow">
+					<div class="leftEvent">
+						<img src="images/meeting.jpg" alt="gerneral meeting" height="140" width="360">
+						<a href="#"><div class="homeOverlay">
+							<h3>Gerneral Meeting</h3>
+						</div></a>
+					</div>
+
+					<div class="rightEvent">
+						<img src="images/trout.jpg" alt="Trout Hatchery" height="140" width="360">
+						<a href="#"><div class="homeOverlay">
+							<h3>Trout Hatchery</h3>
+						</div></a>
+					</div>
+				</div>
+				<div id="secondRow">
+					<div class="leftEvent">
+						<img src="images/rob.jpg" alt="Rob-Building" height="140" width="360">
+						<a href="#"><div class="homeOverlay">
+							<h3>Rob-Building</h3>
+						</div></a>
+
+					</div>
+					<div class="rightEvent">
+						<img src="images/event.jpg" alt="Stream habitat work party" height="140" width="360">
+						<a href="#"><div class="homeOverlay">
+							<h3>Stream habitat work party</h3>
+						</div></a>
+					</div>
+
+				</div>
+				<a herf="#"><div id="more">more...</div></a>
+		</section>
+		<footer>
+			<h2 class="hidden">footer</h2>
+			<nav id="footerNav">
+				<h2 class="hidden">footer Nav</h2>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About us</a></li>
+					<li><a href="project_1.html">Projects</a></li>
+					<li><a href="statistic.html">Statistic</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<div id="copyRight">
+				<p>&copy; TRAA 2019</p>
+			</div>
+		</footer>
+	</div>
+	
 	<script src="main.js"></script>
 </body>
 </html>
