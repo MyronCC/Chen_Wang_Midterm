@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 17.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="50px" height="50px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-<path d="M0,7v36h50V7H0z M48,9v2.506L28.336,28.644c-1.408,1.227-2.802,1.358-3.336,1.358c-0.534,0-1.926-0.133-3.336-1.36
-	C20.264,27.423,4.123,13.355,2,11.505V9H48z M48,14.153v21.812L34.878,25.59L48,14.153z M15.121,25.588L2,35.964V14.153
-	C4.773,16.57,10.72,21.753,15.121,25.588z M2,41v-2.487l14.654-11.589c1.913,1.667,3.327,2.899,3.699,3.223
-	c1.918,1.67,3.888,1.851,4.646,1.851c0.759,0,2.729-0.181,4.646-1.849l3.698-3.223L48,38.514V41H2z"/>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 36" width="75" height="75"><title>mail</title>
+<style type="text/css">
+	g{transition: all .5s ease;}
+	g:hover{fill: #8c8c8c; storke:#8c8c8c;}
+</style>
+<g>
+<path d="M0,7V43H50V7ZM48,9v2.51L28.34,28.64A5.16,5.16,0,0,1,25,30a5.16,5.16,0,0,1-3.34-1.36L2,11.51V9Zm0,5.15V36L34.88,25.59ZM15.12,25.59,2,36V14.15ZM2,41V38.51L16.65,26.92l3.7,3.23A7.19,7.19,0,0,0,25,32a7.16,7.16,0,0,0,4.64-1.85l3.7-3.22L48,38.51V41Z" transform="translate(0 -7)"/>
+</g>
 </svg>

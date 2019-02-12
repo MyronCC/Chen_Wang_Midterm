@@ -197,7 +197,7 @@ footer
 
 #footerNav ul li a:hover
 {
-	border-bottom: solid 3px blue;
+	border-bottom: solid 3px #66ccff;
 	padding-bottom: 1px;
 }
 
@@ -330,21 +330,25 @@ footer
 	margin-left: 350px;
 	height: 40px;
 	width: 160px;
-	background-color: #a8ed9a;
+	
 	text-align: center;
 	line-height: 40px;
 	font-family: 'Arial', normal;
 	font-size: 16px;
 	border-radius: 10px;
-	box-shadow: 0 2px 6px rgba(0,0,0,.15);
-	transition: all .5 ease;
+	
+	transition: background .5s ease;
+	text-transform: uppercase;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 2px;
 }
 
 #more:hover
 {
 	background-color: #17b102;
 	color: #fff;
-	box-shadow: 0 1px 3px rgba(0,0,0,.15) inset;
+	box-shadow: 0 2px 6px rgba(0,0,0,.15);
+	background-color: #66ccff;
 }
 
 /* About Page */
@@ -353,7 +357,7 @@ footer
 	height: 375px;
 	margin-left: 50px;
 	margin-right: 50px;
-	margin-top: 20px;
+	margin-top: 30px;
 	padding-bottom: 15px;
 	border-bottom: 1px solid #8c8c8c;
 }
@@ -782,4 +786,285 @@ footer
 #event3
 {
 	padding-top: 150px;
+}
+
+/* contact page */
+#contact
+{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#contact h2
+{
+	margin-top: 30px;
+	text-align: center;
+}
+
+#contactWays
+{
+	display: flex;
+	flex-direction: row;
+	width: 860px;
+	margin-top: 50px;
+	margin-top: 30px;
+}
+
+.contactWay
+{
+	margin: 0 auto;
+	width: 150px;
+	text-align: center;
+}
+
+#contactWay3
+{
+	margin: 0 auto;
+	width: 150px;
+
+	text-align: center;
+}
+
+
+
+#contactWaysText
+{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.contactText
+{
+	margin:0 auto;
+}
+
+.contactText p
+{
+	font-family: 'Arial', normal;
+	text-align: center;
+	width: 270px;
+	line-height: 120%;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+.singleRow
+{
+	margin-top: 15px;
+}
+
+@-webkit-keyframes shake {
+ 
+	0%, 100% {-webkit-transform: translateX(0);}
+	10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-5px);}
+	20%, 40%, 60%, 80% {-webkit-transform: translateX(5px);}
+}
+@-moz-keyframes shake {
+	0%, 100% {-moz-transform: translateX(0);}
+	10%, 30%, 50%, 70%, 90% {-moz-transform: translateX(-5px);}
+	20%, 40%, 60%, 80% {-moz-transform: translateX(5px);}
+}
+
+#contactWays object:hover
+{
+	-webkit-animation-name:shake;
+	-webkit-animation-duration:2s;
+	-moz--name:shake;
+	-moz-animation-duration:2s;
+}
+
+#secondPart
+{
+	padding-top: 20px;
+	border-top: 1px solid #8c8c8c;
+	margin-top: 20px;
+	border-bottom: 1px solid #8c8c8c;
+	
+}
+
+#secondPart h2
+{
+	margin-top: 0px;
+	line-height: 30px;
+}
+
+#secondPart span
+{
+	font-size: 18px;
+	font-family: 'Londrina Solid', cursive;
+	text-align: center;
+	line-height: 60px;
+}
+
+#secondPart p
+{
+	font-size: 14px;
+	font-family: 'Arial', normal;
+	margin-bottom: 30px;
+}
+
+#membershipIntro
+{
+	text-align: center;
+}
+
+#inRow
+{
+	flex-direction: row;
+	display: flex;
+	margin: 0 auto;
+}
+
+#membershipForm
+{
+	flex-direction: column;
+	display: flex;
+}
+
+#formArea h2
+{
+	text-align: left;
+	margin-bottom: 20px;
+}
+.formDetail
+{
+	display: block;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 10px;
+	width: 300px;
+	height: 8px;
+	background-color: #efefef;
+	border: 1px solid #999;
+	box-shadow: 0 2px 6px rgba(0,0,0,.2) inset;
+}
+
+#membershipForm label
+{
+	font-family: 'Arial', normal;
+}
+
+#submit
+{
+	width: 125px;
+	margin-top: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #8c8c8c;
+	height: 30px;
+	color: #000;
+	border-radius: 5px;
+	transition: all .3s ease;
+}
+
+#submit:hover
+{
+	opacity: .8
+}
+
+#rightArea
+{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0 auto;
+	padding-left: 48px;
+}
+
+#membershipImg
+{
+	margin-top: 60px;
+}
+
+#membershipImg img
+{
+	border-radius: 10px;
+	box-shadow: 0 2px 10px rgba(0,0,0,.3);
+	transition: all .3s ease;
+}
+
+#membershipImg img:hover
+{
+	opacity: .8;
+}
+
+#api
+{
+	flex-direction: row;
+	display: flex;	
+	width: 400px;
+	text-align: left;
+	margin: 0 auto;
+	padding-left: 70px;
+}
+
+.api
+{
+	padding: 30px;
+	margin-top: -10px;
+}
+
+.api object
+{
+	transition: all .3s ease;
+}
+
+.api object:hover
+{
+	opacity: .7;
+}
+
+/* statistic page */
+#statistic
+{
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #8c8c8c;
+}
+
+#statistic h2
+{
+	text-align: center;
+}
+
+#firstInfo
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+
+#statText
+{
+	
+	padding-left: 50px;
+	width: 380px;
+	text-align: left;
+	font-family: 'Arial', normal;
+	font-size: 18px;
+	line-height: 200%;
+	letter-spacing: 1px;
+	padding-top: 50px;
+}
+
+#firstChart
+{
+	text-align: center;
+}
+
+#secondRowChart
+{
+	display: flex;
+	flex-direction: row;
+	padding-left: 30px;
+}
+
+.chart
+{
+	margin: 0 auto;
 }

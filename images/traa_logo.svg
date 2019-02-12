@@ -20,6 +20,18 @@
 	.st14{fill:none;stroke:#D42027;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st15{fill:none;stroke:#D42027;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st16{fill:none;stroke:#D42027;stroke-miterlimit:10;}
+	#fish:hover{
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
 </style>
 <g id="border_1_">
 	<circle id="XMLID_23_" class="st0" cx="104.8" cy="78.7" r="76.5"/>
